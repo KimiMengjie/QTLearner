@@ -118,7 +118,6 @@ MyWidget::MyWidget(QWidget *parent)
 	lcd->setMode(QLCDNumber::Hex);
 	lcd->setSegmentStyle(QLCDNumber::Flat);
 
-
 	ui.setupUi(this);
 }
 

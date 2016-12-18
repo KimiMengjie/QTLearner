@@ -1,0 +1,25 @@
+<UI version="4.0" >
+ <class>T06EventClass</class>
+ <widget class="QWidget" name="T06EventClass" >
+  <property name="objectName" >
+   <string notr="true">T06EventClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>600</width>
+    <height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>T06Event</string>
+  </property>
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="T06Event.qrc"/>
+ </resources>
+ <connections/>
+</UI>
