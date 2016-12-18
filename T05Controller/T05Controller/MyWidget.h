@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QWidget>
 #include "ui_MyWidget.h"
+#include <QTextEdit>
 
 class MyWidget : public QWidget
 {
@@ -9,7 +10,13 @@ class MyWidget : public QWidget
 
 public:
     MyWidget(QWidget *parent = Q_NULLPTR);
+	
+
+signals:
+	public slots :
+		void slotComboxIndexChanged(const QString &);
 
 private:
     Ui::MyWidgetClass ui;
+	QTextEdit *m_edit;
 };
